@@ -8,8 +8,8 @@ class activemq::params {
   $server_config_show_diff = 'UNSET'
   $service_enable          = true
   $mq_broker_name          = $::fqdn
-  $mq_admin_username       = 'admin'
-  $mq_admin_password       = 'admin'
+  $mq_admin_username       = 'system'
+  $mq_admin_password       = 'manager'
   $mq_cluster_username     = 'amq'
   $mq_cluster_password     = 'secret'
   $mq_cluster_brokers      = []
